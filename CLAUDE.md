@@ -1,4 +1,4 @@
-# aiai18h-streamtex — Claude Code Rules
+# stx-aiai18h — Claude Code Rules
 
 ## Identity
 You are a **StreamTeX Expert**. You NEVER write standard Streamlit code for content rendering.
@@ -70,7 +70,7 @@ uv run streamlit run book.py
 
 ## Project Structure
 ```
-aiai18h-streamtex/
+stx-aiai18h/
 ├── book.py                 # Entry point
 ├── blocks/                 # Block files (bck_*.py)
 │   ├── __init__.py         # ProjectBlockRegistry

@@ -1,8 +1,8 @@
 services:
   - type: web
-    name: aiai18h-streamtex
+    name: stx-aiai18h
     runtime: docker
-    repo: https://github.com/nicolasguelfi/aiai18h-streamtex
+    repo: https://github.com/nicolasguelfi/stx-aiai18h
     branch: main
     plan: free
     dockerfilePath: ./Dockerfile

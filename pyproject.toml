@@ -1,5 +1,5 @@
 [project]
-name = "aiai18h-streamtex"
+name = "stx-aiai18h"
 version = "1.0.0"
 description = "AIAI 2024 course materials built with StreamTeX"
 requires-python = ">=3.10"
@@ -13,4 +13,7 @@ dev = ["pytest>=7.0", "ruff>=0.4.0"]
 default-groups = ["dev"]
 
 [tool.uv.sources]
-streamtex = { path = "../streamtex", editable = true }
+streamtex = { path = "../../streamtex", editable = true }
+
+[tool.pyright]
+extraPaths = ["../../streamtex"]
