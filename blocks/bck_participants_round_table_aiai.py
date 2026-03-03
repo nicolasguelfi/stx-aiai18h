@@ -1,8 +1,6 @@
-import streamlit as st
 from streamtex import *
 from custom.styles import Styles as s
-from streamtex.styles import Style as ns, StyleGrid as sg
-from streamtex.enums import Tags as t, ListTypes as lt
+from streamtex.enums import ListTypes as lt
 
 class BlockStyles:
     border = s.container.borders.color(s.text.colors.black) + s.container.borders.solid_border + s.container.borders.size("2px")
@@ -25,7 +23,7 @@ def build():
                     with l.item(): st_write("First name")
                     with l.item(): st_write("Main Activities")
                     with l.item(): 
-                        st_write(f"Motivations for participating to ", (s.project.bronze_01_bold, "AIAI"))
+                        st_write("Motivations for participating to ", (s.project.bronze_01_bold, "AIAI"))
 
             # Right Column
             with g.cell():

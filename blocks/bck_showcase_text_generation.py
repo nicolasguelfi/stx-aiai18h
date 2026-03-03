@@ -1,4 +1,3 @@
-import streamlit as st
 from streamtex import *
 from custom.styles import Styles as s
 from streamtex.styles import Style as ns, StyleGrid as sg
