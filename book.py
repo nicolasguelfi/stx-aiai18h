@@ -1,5 +1,5 @@
 import streamlit as st 
-from streamtex import st_book, TOCConfig, NumberingMode
+from streamtex import st_book, TOCConfig, NumberingMode, ViewMode
 import blocks
 from custom.styles import Styles as s
 from custom.themes import dark
@@ -48,7 +48,7 @@ st_book([
     blocks.bck_showcase_text_generation,
     blocks.bck_showcase_image_recognition_mnist_intro_aiai
     
-], toc_config=toc)
+], toc_config=toc, view_modes=[ViewMode.PAGINATED, ViewMode.CONTINUOUS])
 
 
 
