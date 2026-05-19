@@ -7,7 +7,7 @@ import streamtex.styles as sts
 
 
 
-st.set_page_config(page_title="StreamTeX 1.53.0 Test Book",
+st.set_page_config(page_title="AI-AI 2018 — Hands-on",
                     page_icon=None,
                     layout="wide",
                     initial_sidebar_state="expanded",
